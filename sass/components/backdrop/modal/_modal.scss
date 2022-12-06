@@ -1,0 +1,95 @@
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 528px;
+
+  background-color: $back-color;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform $transition;
+
+  &__form {
+    padding-top: 41px;
+    padding-bottom: 39px;
+  }
+
+  &__title {
+    display: block;
+    margin-bottom: 30px;
+  
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: $h-color;
+
+      }
+      .backdrop.is-hidden & {
+        transform: translate(-50%, -50%) scale(1.1);
+      }
+}
+
+
+.modal__close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: $back-color;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: fill $transition;
+
+  &:hover, &:focus {
+    fill: $button-color;
+
+  }
+}
+
+
+
+.modal__button {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  margin-top: 30px;
+  height: 50px;
+
+  border: none;
+  border-radius: 4px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: $back-color;
+  background-color: $button-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  transition: background-color $transition,
+    box-shadow $transition;
+
+    &:hover, &:focus {
+      background-color: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    }
+}
+

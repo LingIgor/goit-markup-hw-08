@@ -1,0 +1,24 @@
+@import './utils/variables';
+@import'./utils/selectors';
+@import './utils/vissual';
+@import './components/logo';
+@import './components/hdr-ftr/header/header';
+@import './components/hdr-ftr/header/navigation';
+@import './components/hdr-ftr/header/header-address';
+@import './components/index/hero';
+@import './components/backdrop/backdrop';
+@import './components/backdrop/modal/modal';
+@import './components/backdrop/modal/form';
+@import './components/backdrop/modal/license';
+@import './components/index/skills';
+@import './components/index/duties';
+@import './components/index/team-img';
+@import './components/index/team-socials';
+@import './components/index/clients';
+@import './components/portfolio/button';
+@import './components/portfolio/work';
+@import './components/hdr-ftr/footer/ftr__address';
+@import './components/hdr-ftr/footer/connect';
+@import './components/hdr-ftr/footer/subscribe';
+
+

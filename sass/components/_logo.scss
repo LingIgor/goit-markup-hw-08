@@ -1,0 +1,32 @@
+.logo {
+    margin-right: 93px;
+    display: inline-block;
+    
+    text-decoration: none;
+    font-family: $sacondary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;  
+    color: #000000;
+    
+        &__web{
+          color: $logo-color;  
+        }
+
+        &--white {
+            display: inline-block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            font-family: $sacondary-font;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.19;
+            color: $back-color;
+
+        }
+    
+  }
+  
+  

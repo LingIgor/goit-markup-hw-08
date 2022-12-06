@@ -1,0 +1,48 @@
+.license {
+    display: flex;
+    padding-left: 52px;
+
+
+    &__lable {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        
+
+    &__checkbox {
+        font-size: 14px;
+    line-height: 1.71;  
+    letter-spacing: 0.03em;
+  
+    color: $main-color;
+    }
+
+    &__link {
+        margin-left: 5px;
+        color: $button-color;
+    }
+  }
+  
+   
+  .license__icon {
+    margin-right: 8px;
+    width: 16px;
+    height: 15px;
+    border: 2px solid black;
+    border-radius: 2px;
+    fill: transparent;
+    transition: fill $transition,
+      background-color $transition,
+      border $transition;
+
+      .license__checkbox:checked + & {
+        background-color: $button-color;
+        fill: $back-color;
+        border: none;
+  }
+}
+ 
+  
+  
+ 

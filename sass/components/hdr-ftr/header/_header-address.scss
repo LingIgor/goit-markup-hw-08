@@ -1,0 +1,45 @@
+.address {
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    list-style: none;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+
+    &__item {
+        position: relative;
+        padding-top: 32px;
+        padding-bottom: 32px;
+
+    }
+
+    &__icon {
+        margin-right: 10px;
+        display: inline-block;
+        fill: currentColor;
+    }
+  }
+
+  .address__link {
+    display: flex;
+    align-items: center;
+  
+    text-decoration: none;
+    color: $main-color;
+    transition: color $transition;
+
+    &:hover, &:focus {
+        color: $button-color;
+
+    }
+  }  
+  
+  .container.address {
+    justify-content: flex-end;
+  }
+  
+
+  
+  
