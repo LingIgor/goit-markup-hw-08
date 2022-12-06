@@ -1,0 +1,48 @@
+.skills {
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        
+        gap: 30px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__box {     
+        position: relative;
+         
+        width: 100%;
+        height: 120px;
+        border-radius: 4px;
+            
+        
+        margin-bottom: 30px;
+        background-color: $back-section-color;
+    }
+
+    &__name {
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 1.14;
+        font-weight: 700;
+        text-transform: uppercase;  
+        color: $h-color;
+    }
+
+    &__text {
+        line-height: 1.71;  
+        color: $main-color;
+    }
+
+    &__icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        translate: (-50% -50%);
+
+        width: 70px;
+        height: 70px;
+    }
+  }
