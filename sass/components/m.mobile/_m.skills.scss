@@ -1,9 +1,7 @@
 .skills {
-
     &__list {
         display: flex;
-        flex-wrap: wrap;
-        
+        flex-wrap: wrap;        
         gap: 30px;
         margin: 0;
         padding: 0;
@@ -11,14 +9,11 @@
     }
 
     &__box {     
-        position: relative;
-         
+        position: relative;  
+        margin-bottom: 30px;       
         width: 100%;
         height: 120px;
-        border-radius: 4px;
-            
-        
-        margin-bottom: 30px;
+        border-radius: 4px;        
         background-color: $back-section-color;
     }
 
@@ -29,11 +24,14 @@
         font-weight: 700;
         text-transform: uppercase;  
         color: $h-color;
+        text-align: center;
+        
     }
 
     &__text {
         line-height: 1.71;  
         color: $main-color;
+        
     }
 
     &__icon {
@@ -41,8 +39,11 @@
         top: 50%;
         left: 50%;
         translate: (-50% -50%);
-
         width: 70px;
         height: 70px;
     }
+  }
+
+  .skills__item:not(:last-child) {
+    margin-bottom: 30px;
   }
