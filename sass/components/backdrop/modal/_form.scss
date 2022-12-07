@@ -1,6 +1,8 @@
 .form {
-    margin: 30px auto 20px;
-    width: 448px;
+  
+    margin: 30px auto 40px;
+    width: calc(100% - 80px);
+    
 
     &__list {
         display: block;
