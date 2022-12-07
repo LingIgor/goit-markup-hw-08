@@ -8,6 +8,19 @@
         list-style: none;
     }
 
+    &__item {
+        @media screen and (min-width: 768px) {
+            width: calc((100% - 30px) /2);
+            
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: calc((100% - 90px) /4);
+
+            
+        }
+    }
+
     &__box {     
         position: relative;  
         margin-bottom: 30px;       
@@ -15,6 +28,8 @@
         height: 120px;
         border-radius: 4px;        
         background-color: $back-section-color;
+
+        
     }
 
     &__name {
@@ -25,6 +40,15 @@
         text-transform: uppercase;  
         color: $h-color;
         text-align: center;
+
+        @media screen and (min-width: 1200px) {
+            text-align: left;
+
+            
+        }
+
+
+        
         
     }
 

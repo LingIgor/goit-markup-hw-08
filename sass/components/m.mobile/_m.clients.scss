@@ -8,6 +8,11 @@
         letter-spacing: 0.03em;  
         color: $h-color;
 
+        @media screen  and (min-width: 1200px) {
+          margin-bottom: 50px;;
+         
+         }
+
     }
 
     &__list {
@@ -19,7 +24,19 @@
     }
 
     &__item {
-        width: calc((100% - 30px) / 2);
+      width: 100%;
+        
+
+
+        @media screen  and (min-width: 768px) {
+          width: calc((100% - 30px) / 2);
+         
+         }
+
+         @media screen  and (min-width: 1200px) {
+          width: calc((100% - 150px) / 6);
+         
+         }
         
     }
 
