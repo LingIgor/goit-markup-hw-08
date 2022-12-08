@@ -1,7 +1,7 @@
 .logo {
-    // margin-right: 93px;
-    display: inline-block;
     
+    display: inline-block;
+    padding: 15px 0;    
     text-decoration: none;
     font-family: $sacondary-font;
     font-style: normal;
@@ -10,6 +10,18 @@
     line-height: 1.19;
     letter-spacing: 0.03em;  
     color: #000000;
+
+    @media screen and (min-width: 768px) {
+      padding: 0;  
+      margin-right: 87px;    
+    }
+
+    @media screen and (min-width: 1200px) {      
+      margin-right: 93px;    
+    }
+
+
+
     
         &__web{
           color: $logo-color;  
@@ -24,6 +36,8 @@
             font-size: 26px;
             line-height: 1.19;
             color: $back-color;
+            padding: 0;
+            margin-right: 0;
 
         }
     

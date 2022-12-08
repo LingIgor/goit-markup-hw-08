@@ -1,0 +1,107 @@
+.header__container {
+    position: relative;
+}
+
+
+.menu-open {
+    position: absolute;
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+    right: 15px;
+    top: 10px;
+
+    @media screen and (min-width: 768px) {
+        display: none;
+        
+    }
+    
+}
+.icon-open {
+    width: 40px;
+    height: 40px;
+    fill: #000000;
+
+}
+
+
+
+
+.mob-menu {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    top:0;
+    z-index: 1;
+
+}
+.menu-close {
+    position: absolute;
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+    right: 15px;
+    top: 10px;
+}
+.icon-menu-close {
+
+    width: 40px;
+    height: 40px;
+    fill: black;
+}
+.menu__list {
+}
+.item {
+}
+.menu__item {
+}
+.menu__link {
+    
+    text-decoration: none;
+   
+    font-weight: 500;
+    font-size: 40px;
+    line-height: calc(47 / 40);
+    letter-spacing: 0.02em;    
+    color: $h-color;
+}
+.menu-contact {
+}
+.menu-contact__item {
+}
+.menu-contact__link {
+text-decoration: none;
+font-weight: 500;
+font-size: 24px;
+line-height: calc(28 /24);
+letter-spacing: 0.02em;
+color: $main-color;
+
+
+}
+
+.menu-soc {
+    display: flex;
+   
+}
+.menu-soc__item {
+    
+}
+.menu-soc__link {
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;    
+    border-right: 1px solid $main-color;
+font-weight: 500;
+font-size: 18px;
+line-height: 1.22;
+letter-spacing: 0.02em;
+color: $button-color;
+}
+
+.menu-soc__link(:last-child) {
+    padding: 0;
+}
+  
+
