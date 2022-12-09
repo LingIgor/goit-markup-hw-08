@@ -86,7 +86,7 @@
 
 
 .menu__list {
- 
+    // margin-bottom: 300px; 
 }
 .item {
 }
@@ -94,11 +94,17 @@
 }
 .menu__link {    
     text-decoration: none;   
-    font-weight: 500;
-    font-size: 40px;
-    line-height: calc(47 / 40);
+    font-weight: 500; 
+    font-size: 30px;
+    line-height: 1.18;   
     letter-spacing: 0.02em;    
     color: $h-color;
+
+    @media screen and (min-width:480px) {
+        font-size: 40px;
+    line-height: calc(47 / 40);
+        
+    }
 }
 
 .menu__item:not(:last-child) {
@@ -124,12 +130,21 @@
     }
 
 .menu-contact__link--tel {
-font-weight: 500;
-font-size: 34px;
-line-height: calc(40 / 34);
-letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: calc(28 /24);
 
-color: $main-color;
+    letter-spacing: 0.02em;
+    color: $main-color;
+
+
+    @media screen and (min-width:480px) {
+    font-size: 34px;
+    line-height: calc(40 / 34);;
+    
+    }
+
+
 }
 
 
@@ -150,10 +165,17 @@ color: $main-color;
     padding-right: 10px;
     text-decoration: none;        
     font-weight: 500;
-    font-size: 18px;
-    line-height: 1.22;
+    font-size: 15px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: $button-color;
+
+
+    @media screen and (min-width:480px) {
+        font-size: 18px;
+        line-height: 1.22;
+        
+        }
 }
 
 .menu-soc__item:not(:last-child)::after {

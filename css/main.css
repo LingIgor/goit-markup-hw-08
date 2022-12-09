@@ -350,10 +350,16 @@ label {
 .menu__link {
   text-decoration: none;
   font-weight: 500;
-  font-size: 40px;
-  line-height: 1.175;
+  font-size: 30px;
+  line-height: 1.18;
   letter-spacing: 0.02em;
   color: #212121;
+}
+@media screen and (min-width: 480px) {
+  .menu__link {
+    font-size: 40px;
+    line-height: 1.175;
+  }
 }
 
 .menu__item:not(:last-child) {
@@ -379,10 +385,16 @@ label {
 
 .menu-contact__link--tel {
   font-weight: 500;
-  font-size: 34px;
-  line-height: 1.1764705882;
+  font-size: 24px;
+  line-height: 1.1666666667;
   letter-spacing: 0.02em;
   color: #757575;
+}
+@media screen and (min-width: 480px) {
+  .menu-contact__link--tel {
+    font-size: 34px;
+    line-height: 1.1764705882;
+  }
 }
 
 .menu-soc {
@@ -403,10 +415,16 @@ label {
   padding-right: 10px;
   text-decoration: none;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 1.22;
+  font-size: 15px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2196f3;
+}
+@media screen and (min-width: 480px) {
+  .menu-soc__link {
+    font-size: 18px;
+    line-height: 1.22;
+  }
 }
 
 .menu-soc__item:not(:last-child)::after {
