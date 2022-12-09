@@ -5,6 +5,7 @@
 
 .menu-open {
     position: absolute;
+    
     margin-left: auto;
     background-color: transparent;
     border: none;
@@ -32,12 +33,12 @@
 
 .mob-menu {
     position: fixed;
+   
     width: 100vw;
     height: 100vh;
     background-color: #ffffff;
     top:0;
-    z-index: 1;
-    padding: 48px 40px;
+    z-index: 1;    
     overflow: auto;
 
     @media screen and (min-width:768px) {
@@ -46,6 +47,17 @@
     }
 
 }
+
+.menu-conteiner {
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    
+
+}
+
+
 .menu-close {
     position: absolute;
     
@@ -74,7 +86,7 @@
 
 
 .menu__list {
-    margin-bottom: 306px;
+ 
 }
 .item {
 }
@@ -125,6 +137,7 @@ color: $main-color;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    margin-bottom: 48px;
    
 }
 .menu-soc__item {

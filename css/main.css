@@ -303,13 +303,26 @@ label {
   background-color: #ffffff;
   top: 0;
   z-index: 1;
-  padding: 48px 40px;
   overflow: auto;
 }
 @media screen and (min-width: 768px) {
   .mob-menu {
     display: none;
   }
+}
+
+.menu-conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
 }
 
 .menu-close {
@@ -332,10 +345,6 @@ label {
 .menu-contact__link:is(:hover, :focus) {
   color: #2196f3;
   fill: #2196f3;
-}
-
-.menu__list {
-  margin-bottom: 306px;
 }
 
 .menu__link {
@@ -383,6 +392,7 @@ label {
   gap: 10px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 48px;
 }
 
 .menu-soc__item {
