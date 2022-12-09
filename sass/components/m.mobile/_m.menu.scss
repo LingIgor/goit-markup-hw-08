@@ -191,11 +191,14 @@
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
 }
 
-.is-hidden {
+.mob-menu.is-hidden {
     opacity: 0;
     visibility: visible;
     pointer-events: none;
+    
 }
+
+
 
 
   
