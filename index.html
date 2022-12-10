@@ -270,11 +270,18 @@
           <ul class="duties__list">
             <li class="item duties__item">
               <div class="duties__box">
-                <img
-                  src="./images/computer.jpg"
-                  alt="Робота на компютері"
-                  width="370"
-                />
+
+                <picture>
+                  <source srcset="./images/duties/desktop-1x.jpg 1x, ./images/duties/desktop-2x.jpg 2x" media="(min-width: 1200px)"/>
+
+                    <img 
+                                            
+                            src="./images/duties/desktop-1x.jpg"
+                            alt="desktop"
+                            width="370"                  
+                    />
+                 </picture>
+                
                 <div class="duties__wrapper">
                   <p class="duties__text">Десктопні додатки</p>
                 </div>
@@ -282,11 +289,17 @@
             </li>
             <li class="item duties__item">
               <div class="duties__box">
-                <img
-                  src="./images/smartphone.jpg"
-                  alt="Робота на смартфоні"
-                  width="370"
-                />
+                <picture>
+                  <source srcset="./images/duties/mob-1x.jpg 1x, ./images/duties/mob-2x.jpg 2x" media="(min-width: 1200px)" />
+
+                    <img 
+                                            
+                            src="./images/duties/mob-1x.jpg"
+                            alt="mobile"
+                            width="370"                  
+                    />
+                 </picture>                
+              
                 <div class="duties__wrapper">
                   <p class="duties__text">Мобільні додатки</p>
                 </div>
@@ -294,11 +307,15 @@
             </li>
             <li class="item duties__item">
               <div class="duties__box">
-                <img
-                  src="./images/tablet.jpg"
-                  alt="Робота на планшеті"
-                  width="370"
-                />
+                <picture>
+                  <source srcset="./images/duties/tablet-1x.jpg 1x, ./images/duties/tablet-2x.jpg 2x" media="(min-width: 1200px)" />
+                    <img 
+                                            
+                            src="./images/duties/tablet-1x.jpg"
+                            alt="tablet"
+                            width="370"                  
+                    />
+                 </picture> 
                 <div class="duties__wrapper">
                   <p class="duties__text">Дизайнерські рішення</p>
                 </div>
@@ -313,12 +330,17 @@
           <ul class="team__list">
             <li class="item team__item">
               <div class="team__box">
-                <img
-                  src="./images/igor-demyanenko.jpg"
-                  alt="Ігор Дем'яненко"
-                  width="270"
-                  height="260"
-                />
+               <picture>
+                <source srcset="./images/team/igor-desktop-1x.jpg 1x, ./images/team/igor-desktop-2x.jpg 2x" media="(min-width: 1200px)"/>
+                <source srcset="./images/team/igor-tablet-1x.jpg 1x, ./images/team/igor-tablet-2x.jpg 2x" media="(min-width: 768px)"/>
+                <source srcset="./images/team/igor-mob-1x.jpg 1x, ./images/team/igor-mob-2x.jpg 2x" media="(max-width: 767px)"/>
+                  <img 
+                                          
+                          src="./images/team/igor-mob-1x.jpg"
+                          alt="Ігор Дем'яненко"
+                          width="450"                  
+                  />
+               </picture>               
                 <div class="team__wrapper">
                   <h3 class="team__name">Ігор Дем'яненко</h3>
                   <p class="team__text">Product Designer</p>
@@ -361,12 +383,21 @@
             </li>
             <li class="item team__item">
               <div class="team__box">
-                <img
-                  src="./images/olga-repina.jpg"
-                  alt="Ольга Рєпіна"
-                  width="270"
-                  height="260"
-                />
+                <picture>
+                  <source srcset="./images/team/Olga-desktop-1x.jpg 1x, ./images/team/Olga-desktop-2x.jpg 2x" media="(min-width: 1200px)"/>
+                  <source srcset="./images/team/Olga-tablet-1x.jpg 1x, ./images/team/Olga-tablet-2x.jpg 2x" media="(min-width: 768px)"/>
+                  <source srcset="./images/team/Olga-mob-1x.jpg 1x, ./images/team/Olga-mob-2x.jpg 2x" media="(max-width: 767px)"/>
+                    <img 
+                                            
+                            src="./images/team/Olga-mob-1x.jpg"
+                            alt="Ігор Дем'яненко"
+                            width="450"                  
+                    />
+                 </picture>
+
+
+
+                
                 <div class="team__wrapper">
                   <h3 class="team__name">Ольга Рєпіна</h3>
                   <p class="team__text">Frontend Developer</p>
@@ -409,12 +440,19 @@
             </li>
             <li class="item team__item">
               <div class="team__box">
-                <img
-                  src="./images/mykola-tarasov.jpg"
-                  alt="Микола Тарасов"
-                  width="270"
-                  height="260"
-                />
+
+                <picture>
+                  <source srcset="./images/team/mykola-desktop-1x.jpg 1x, ./images/team/mykola-desktop-2x.jpg 2x" media="(min-width: 1200px)"/>
+                  <source srcset="./images/team/mykola-tablet-1x.jpg 1x, ./images/team/mykola-tablet-2x.jpg 2x" media="(min-width: 768px)"/>
+                  <source srcset="./images/team/mykola-mob-1x.jpg 1x, ./images/team/mykola-mob-2x.jpg 2x" media="(max-width: 767px)"/>
+                    <img 
+                                            
+                            src="./images/team/mykola-mob-1x.jpg "
+                            alt="Ігор Дем'яненко"
+                            width="450"                  
+                    />
+                 </picture>
+                
                 <div class="team__wrapper">
                   <h3 class="team__name">Микола Тарасов</h3>
                   <p class="team__text">Marketing</p>
@@ -457,13 +495,18 @@
             </li>
             <li class="item team__item">
               <div class="team__box">
-                <img
-                  class="team-foto img"
-                  src="./images/myhaylo-ermakov.jpg"
-                  alt="Михайло Єрмаков"
-                  width="270"
-                  height="260"
-                />
+                <picture>
+                  <source srcset="./images/team/myhaylo-desktop-1x.jpg 1x, ./images/team/myhaylo-desktop-2x.jpg 2x" media="(min-width: 1200px)"/>
+                  <source srcset="./images/team/myhaylo-tablet-1x.jpg 1x, ./images/team/myhaylo-tablet-2x.jpg 2x" media="(min-width: 768px)"/>
+                  <source srcset="./images/team/myhaylo-mob-1x.jpg 1x, ./images/team/myhaylo-mob-2x.jpg 2x" media="(max-width: 767px)"/>
+                    <img 
+                                            
+                            src="./images/team/myhaylo-mob-1x.jpg"
+                            alt="Ігор Дем'яненко"
+                            width="450"                  
+                    />
+                 </picture>
+                
                 <div class="team__wrapper">
                   <h3 class="team__name">Михайло Єрмаков</h3>
                   <p class="team__text">UI Designer</p>
@@ -643,6 +686,6 @@
       </div>
     </footer>
     <script src="./js/modal.js"></script>
-    <script src="./js/menu.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
