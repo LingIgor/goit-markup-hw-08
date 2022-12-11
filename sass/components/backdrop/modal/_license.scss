@@ -1,51 +1,43 @@
 .license {
+  display: flex;
+  padding-left: 40px;
+
+  &__lable {
     display: flex;
-    padding-left: 40px;
-    // padding-left: 52px;
-
-
-    &__lable {
-        display: flex;
-        align-items: center;
-        justify-content: center;   
-        font-size: 12px;
-        line-height: 1.17;
-        color: $main-color;
-    }
-        
-
-    &__checkbox {
-      font-size: 30px;
-      line-height: 1.71;  
-      letter-spacing: 0.03em;  
-      color: $main-color;
-    }
-
-    &__link {
-        margin-left: 5px;
-        color: $button-color;
-    }
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 1.17;
+    color: $main-color;
   }
-  
-   
-  .license__icon {
-    margin-right: 8px;
-    width: 16px;
-    height: 15px;
-    border: 2px solid black;
-    border-radius: 2px;
-    fill: transparent;
-    transition: fill $transition,
-      background-color $transition,
-      border $transition;
 
-      .license__checkbox:checked + & {
-        background-color: $button-color;
-        fill: $back-color;
-        border: none;
+  &__checkbox {
+    font-size: 30px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $main-color;
+  }
+
+  &__link {
+    margin-left: 5px;
+    color: $button-color;
   }
 }
- 
-  
-  
- 
+
+.license__icon {
+  margin-right: 8px;
+  width: 16px;
+  height: 15px;
+  border: 2px solid black;
+  border-radius: 2px;
+  fill: transparent;
+  transition: fill $transition,
+    background-color $transition,
+    border $transition;
+
+  .license__checkbox:checked+& {
+    background-color: $button-color;
+    fill: $back-color;
+    border: none;
+  }
+}
