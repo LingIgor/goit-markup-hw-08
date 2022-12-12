@@ -2,24 +2,17 @@
     border-bottom: 1px solid #ececec;
 
     &__container {
-
-
         @media screen and (min-width: 768px) {
             display: flex;
             align-items: center;
-
         }
-
     }
 }
-
 
 .navigation {
     display: none;
     font-weight: 500;
     letter-spacing: 0.02em;
-
-
 
     @media screen and (min-width: 768px) {
         max-width: 768px;
@@ -37,9 +30,6 @@
             display: flex;
         }
     }
-
-    &__link {}
-
 
     &__item {
         position: relative;
@@ -69,25 +59,21 @@
             max-width: 480px;
             display: block;
         }
-
     }
 
     &:hover,
     &:focus {
         color: $button-color;
-
     }
 
     &--current {
         color: $h-color;
-
     }
 }
 
 .navigation__list .navigation__link--current {
     color: $button-color;
 }
-
 
 .address {
     display: none;
@@ -114,10 +100,10 @@
         @media screen and (min-width: 768px) {}
 
         @media screen and (min-width: 1200px) {
+            margin: 0;
             padding-top: 32px;
             padding-bottom: 32px;
         }
-
     }
 
     &__icon {
@@ -129,20 +115,29 @@
 
 .address__item:not(:last-child) {
     margin-bottom: 10px;
+
+    @media screen and (min-width: 1200px) {
+        margin: 0;
+    }
 }
 
 .address__link {
     display: flex;
-    align-items: center;
-
+    align-items: center;    
+    font-size: 12px;
+    line-height: calc(14 / 12);
     text-decoration: none;
     color: $main-color;
     transition: color $transition;
 
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+        line-height: calc(16 / 14);
+    }
+
     &:hover,
     &:focus {
         color: $button-color;
-
     }
 }
 

@@ -9,6 +9,7 @@
   border-radius: 4px;
   transform: translate(-50%, -50%) scale(1);
   transition: transform $transition;
+  
 
   @media screen and (min-width: 480px) {
     width: 450px;
